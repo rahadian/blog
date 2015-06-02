@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<HTML expr:dir='data:blog.languageDirection'>
+  &lt;head&gt;
+<!--Google Webmaster-->
+<meta content='en7bSDND1CKNl6gNmUJP94RlvCJ7zchWp-YALoHUZ4g' name='google-site-verification'/>
+<!--Bing Webmaster-->
+<meta content='2E260070D017095723DFBDA9DD77ED26' name='msvalidate.01'/>
+  <title>
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <data:blog.title/>
+      |
+      Kumpulan Pencinta Linux Indonesia
+      <b:elseif cond='data:blog.pageType == &quot;error_page&quot;'/>
+      404 Laman Tidak Ditemukan | 
+      <data:blog.title/>
+      <b:else/>
+      <data:blog.pageName/>
+      | 
+      <data:blog.title/>
+    </b:if>
+  </title>
+  <!-- Tag Meta Verifikasi, silahkan tambahkan milik anda di bawah yang sudah ada, jangan hapus yang ada -->
+  <meta content='nvIxef-Ko9lIhr7jXRJ7NqH77JE7N--TC8cw9FUQvP0' name='google-site-verification'/>
+  <!-- Akhir tag meta verifikasi -->
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <meta content='blogger' name='generator'/>
+  <meta expr:content='data:blog.title' property='og:site_name'/>
+  <meta expr:content='data:blog.homepageUrl' property='og:url'/>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <meta expr:content='data:blog.metaDescription' name='description'/>
+    <meta expr:content='data:blog.metaDescription' property='og:description'/>
+    <meta expr:content='data:blog.title' property='og:site_name'/>
+    <meta expr:content='data:blog.homepageUrl' property='og:url'/>
+    <meta content='website' property='og:type'/>
+    <b:else/>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+      <meta expr:content='&quot;Baca artikel &quot; + data:blog.pageName' property='og:description'/>
+      <meta expr:content='data:blog.pageName' property='og:title'/>
+      <meta expr:content='data:blog.url' property='og:url'/>
+      <meta content='article' property='og:type'/>
+    </b:if>
+  </b:if>
+  <b:if cond='data:blog.metaDescription'>
+    <meta expr:content='data:blog.metaDescription' name='description'/>
+  </b:if>
+  <b:if cond='data:blog.pageType == &quot;archive&quot;'>
+    <meta expr:content='&quot;0; url=&quot; + data:blog.homepageUrl' http-equiv='refresh'/>
+  </b:if>
+  <link href='/favicon.ico?rev=2' rel='icon' type='image/x-icon'/>
+  <link expr:href='data:blog.canonicalUrl' rel='canonical'/>
+  <b:if cond='data:blog.isMobile'>
+    <link expr:href='data:blog.canonicalUrl' rel='alternate'/>
+    <b:else/>
+    <link expr:href='data:blog.canonicalUrl + &quot;?m=1&quot;' rel='alternate'/>
+  </b:if>
+  <link expr:href='data:blog.homepageUrl + &quot;/feeds/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+  <link expr:href='data:blog.homepageUrl + &quot;/rss.xml&quot;' expr:title='data:blog.title + &quot; - RSS&quot;' rel='alternate' type='application/rss+xml'/>
+  <link expr:href='&quot;https://www.blogger.com/feeds/&quot; + data:blog.blogId + &quot;/posts/default&quot;' expr:title='data:blog.title + &quot; - Atom&quot;' rel='alternate' type='application/atom+xml'/>
+  <link href='https://www.blogger.com/openid-server.g' rel='openid.server'/>
+  <link expr:href='data:blog.homepageUrl' rel='openid.delegate'/>
+  <link href='//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.4/united/bootstrap.min.css' rel='stylesheet'/>
+  <!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<![endif]-->
+  &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /* 
+  <b:skin><![CDATA[
+    
+#header-wrapper, #outer-wrapper {width:970px}#Blog1{width:650px;float:left}#sidebar-wrapper {width:300px;float:right}#footer-widget-1, #footer-widget-2, #footer-widget-3 {width:315px;float:left}#layout ul {display: none}*/
+
+  ]]></b:skin>
+  <style type='text/css'>
+    html	{
+      position: relative;
+      min-height: 100%;
+    }
+    body	{
+      font-size: 13.2pt;
+      line-height: 1.7;
+      background-color: #FFF;
+      color: #2c3e50;
+      margin-bottom: 6rem;
+    }
+    a         {
+      transition:all 400ms ease-in-out
+    }
+    a:hover   {
+      text-decoration:none;color:#e67e22
+    }
+    .brand	{
+      font-size:35px;
+    }
+    .page-header	{
+      background: #e67e22;
+      margin: 0;
+    }
+    <b:if cond='data:blog.isMobile'>
+    body	{
+      margin-top:50px;
+    }
+    <b:else/>
+    #nav-1.affix {
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index:9999;
+    }
+    #nav-1 .navbar-brand	{
+      transition: .1s;
+      opacity: 0;
+      width: 0px;
+    }
+    #nav-1.affix .navbar-brand	{
+      transition: 1s;
+      opacity:1;
+      width:auto
+    }
+    .navbar	{
+      border-radius: 0;
+      margin-top: -1px;
+    }
+  </b:if>
+    #main-wrapper	{
+      padding:2rem;
+      border:1px solid #ecf0f1;
+    }
+    footer #credit	{
+      position:absolute;
+      bottom:0;
+      background:#7f8c8d;
+      height:6rem;
+      width:100%;
+      padding:1rem;
+    }
+    .white	{
+      color:#FFF !important;
+    }
+    .white:hover {
+      color:#8e44ad !important;
+    }
+    .black	{
+      color:#2c3e50;
+    }
+    .m-color	{
+      color:#f1c40f;
+    }
+    input.search-text,.btn-default,.pager li   {
+      border-radius:2px !important
+    }
+    .navbar-inverse   {
+      border-color:#222
+    }
+  </style>
+  <b:if cond='data:blog.pageType == &quot;index&quot;'>
+    <!--- Fungsi CSS Untuk Laman Indeks -->
+    <style type='text/css'>
+      .label-wrap {
+        position:absolute;
+        bottom:0;
+        width:100%
+      }
+      .label-wrap li {
+        background:#e67e22;
+        font-size:75%;
+        border-radius:2px
+      }
+      .label-wrap li a:before	{
+        content:&quot;#&quot;
+      }
+      .thumb-wrap	{
+        position: relative;
+      }
+      article.index	{
+        padding: 1rem;
+        border-bottom: 1px solid #ecf0f1;
+      }
+    </style>
+    <b:else/>
+    <!---Fungsi CSS Untuk Laman Post, dan Statis-->
+    <style type='text/css'>
+      .entry-content a[target=_blank]	{
+        font-family:&quot;Glyphicons Halflings&quot;;
+        content:&quot;&#57699;&quot;
+      }
+      .page-header	{
+        margin-bottom: 0;
+      }
+      #post-header	{
+        padding-bottom: 15px;
+        border-bottom:1px solid #eee
+      }
+      #bpnl,#bpol	{
+        position:fixed;
+        border-bottom:3px solid #d35400;
+        bottom:0;
+        padding:0 1em;
+        z-index:10;
+      }
+      #bpol	{
+        right:0
+      }
+      #bpnl	{
+        left:0
+      }
+      .breadcrumb a[rel=tag]:before	{
+        content:&quot;#&quot;;
+      }
+      .fb	{
+        background: #3b5998;
+      }
+      .tw	{
+        background: #55acee
+      }
+      .gp	{
+        background: #d34836
+      }
+      .pr	{
+        background: #2c3e50
+      }
+      .share	{
+        font-size:15px
+      }
+    </style>
+  </b:if>
+  &lt;/head&gt;&lt;!--
+  <head/>
+  --&gt;
+  &lt;/head&gt;
+  <body expr:class='data:blog.pageType + data:blog.mobileClass + &quot; no-js&quot;' itemscope='itemscope' itemtype='http://schema.org/WebPage'>
+    <b:if cond='!data:blog.isMobile'>
+      <header class='page-header' itemscope='itemscope' itemtype='http://schema.org/WPHeader' role='banner'>
+        <div class='container text-center'>
+          <b:section class='header-top' id='header1' maxwidgets='2' showaddelement='no'>
+            <b:widget id='Header1' locked='true' title='Linux Indonesia (Header)' type='Header'>
+              <b:includable id='main'>
+                <div class='col-sm-12 col-md-1'>
+                  <a expr:alt='data:blog.title' expr:href='data:blog.homepageUrl' expr:title='data:blog.title'>
+                    <img src='//2.bp.blogspot.com/-NIWrQOkO-NY/VWlePs_PtcI/AAAAAAAAAuY/XdUjq_xfoys/s120/linux-indo-nesia.png'/>
+                  </a>
+                </div>
+                <b:include name='title'/>
+              </b:includable>
+              <b:includable id='description'>
+                <br/>
+                <small class='white' itemprop='description'>
+                  <data:description/>
+                </small>
+              </b:includable>
+              <b:includable id='title'>
+                <div class='col-sm-12 col-md-11 text-left'>
+                  <b:if cond='data:blog.pageType in {&quot;error_page&quot;,&quot;index&quot;}'>
+                    <h1 itemprop='headline'>
+                      <a class='white' expr:href='data:blog.homepageUrl' itemprop='URL'>
+                        <data:blog.title/>
+                      </a>
+                      <span class='hidden'>
+                        | 
+                      </span>
+                      <b:include name='description'/>
+                    </h1>
+                    <b:else/>
+                    <h2 class='h1' itemprop='headline'>
+                      <a class='white' expr:href='data:blog.homepageUrl' itemprop='URL'>
+                        <data:blog.title/>
+                      </a>
+                      <span class='hidden'>
+                        | 
+                      </span>
+                      <b:include name='description'/>
+                    </h2>
+                  </b:if>
+                </div>
+              </b:includable>
+            </b:widget>
+          </b:section>
+        </div>
+      </header>
+      <div id='nav-1'>
+        <nav class='navbar navbar-default navbar-static' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
+          <div class='container-fluid'>
+            <div class='navbar-header'>
+              <button class='navbar-toggle collapsed' data-target='#nav-1' data-toggle='collapse' type='button'>
+                <span class='glyphicon glyphicon-th'/>
+              </button>
+              <a class='navbar-brand' expr:href='data:blog.homepageUrl'>
+                <strong class='text-uppercase brand m-color'>
+                  LINUX
+                </strong>
+                Indonesia
+              </a>
+            </div>
+            <div class='collapse navbar-collapse' id='nav-1'>
+              <ul class='nav navbar-nav'>
+                <li>
+                  <a href='#'>
+                    <span class='glyphicon glyphicon-question-sign'/>
+                    Tentang
+                  </a>
+                </li>
+                <li>
+                  <a href='#'>
+                    <span class='glyphicon glyphicon-envelope'/>
+                    Kontak
+                  </a>
+                </li>
+                <li>
+                  <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+                    <span class='glyphicon glyphicon-tag'/>
+                    Category
+                    <span aria-hidden='true' class='glyphicon glyphicon-chevron-down btn-xs'/>
+                  </a>
+                  <ul class='dropdown-menu' role='menu'>
+                    <li>
+                      <a href='#'>
+                        Distro
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Desktop Enviorment
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Perangkat Lunak
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Pengembangan
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Penyelesaian Masalah
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+                    <span class='glyphicon glyphicon-flag'/>
+                    Aturan
+                    <span aria-hidden='true' class='glyphicon glyphicon-chevron-down btn-xs'/>
+                  </a>
+                  <ul class='dropdown-menu' role='menu'>
+                    <li>
+                      <a href='#'>
+                        Privasi
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Lisensi
+                      </a>
+                    </li>
+                    <li>
+                      <a href='#'>
+                        Penolakan
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form action='/search' class='navbar-form navbar-right' id='search-form' method='get' role='search' target='_top'>
+                <div class='form-group'>
+                  <input class='form-control' id='search-text' name='q' placeholder='Telusuri disini..' type='text'/>
+                </div>
+                <button class='btn btn-default' id='search-button' type='submit'>
+                  <span class='glyphicon glyphicon-search'/>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <b:else/>
+      <nav class='navbar navbar-default navbar-fixed-top' itemscope='itemscope' itemtype='http://schema.org/SiteNavigationElement' role='navigation'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <button class='navbar-toggle collapsed' data-target='#nav-1' data-toggle='collapse' type='button'>
+              <span class='glyphicon glyphicon-th'/>
+            </button>
+            <a class='navbar-brand' expr:href='data:blog.homepageUrl'>
+              <strong class='text-uppercase brand m-color'>
+                LINUX
+              </strong>
+              Indonesia
+            </a>
+          </div>
+          <div class='collapse navbar-collapse' id='nav-1'>
+            <ul class='nav navbar-nav'>
+              <li>
+                <a href='#'>
+                  <span class='glyphicon glyphicon-question-sign'/>
+                  Tentang
+                </a>
+              </li>
+              <li>
+                <a href='#'>
+                  <span class='glyphicon glyphicon-envelope'/>
+                  Kontak
+                </a>
+              </li>
+              <li>
+                <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+                  <span class='glyphicon glyphicon-tag'/>
+                  Category
+                  <span aria-hidden='true' class='glyphicon glyphicon-chevron-down btn-xs'/>
+                </a>
+                <ul class='dropdown-menu' role='menu'>
+                  <li>
+                    <a href='#'>
+                      Distro
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Desktop Enviorment
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Perangkat Lunak
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Pengembangan
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Penyelesaian Masalah
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a aria-expanded='false' class='dropdown-toggle' data-toggle='dropdown' href='#' role='button'>
+                  <span class='glyphicon glyphicon-flag'/>
+                  Aturan
+                  <span aria-hidden='true' class='glyphicon glyphicon-chevron-down btn-xs'/>
+                </a>
+                <ul class='dropdown-menu' role='menu'>
+                  <li>
+                    <a href='#'>
+                      Privasi
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Lisensi
+                    </a>
+                  </li>
+                  <li>
+                    <a href='#'>
+                      Penolakan
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form action='/search' class='navbar-form navbar-right' id='search-form' method='get' role='search' target='_top'>
+              <div class='form-group'>
+                <input class='form-control' id='search-text' name='q' placeholder='Telusuri disini..' type='text'/>
+              </div>
+              <button class='btn btn-default' id='search-button' type='submit'>
+                <span class='glyphicon glyphicon-search'/>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header class='page-header' itemscope='itemscope' itemtype='http://schema.org/WPHeader' role='banner'>
+        <div class='container text-center'>
+          <b:section class='header-top' id='header2' maxwidgets='2' showaddelement='no'>
+            <b:widget id='Header2' locked='true' title='Linux Indonesia (Header)' type='Header'>
+              <b:includable id='main'>
+                <b:include name='title'/>
+              </b:includable>
+              <b:includable id='description'>
+                <br/>
+                <small class='white' itemprop='description'>
+                  <data:description/>
+                </small>
+              </b:includable>
+              <b:includable id='title'>
+                <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                  <h1 itemprop='headline'>
+                    <a class='white' expr:href='data:blog.homepageUrl' itemprop='URL'>
+                      <data:title/>
+                    </a>
+                    <span class='hidden'>
+                      | 
+                    </span>
+                    <b:include name='description'/>
+                  </h1>
+                  <b:else/>
+                  <h1 itemprop='headline'>
+                    <a expr:href='data:blog.homepageUrl'>
+                      <small class='white'>
+                        <data:blog.title/>
+                      </small>
+                    </a>
+                    <br/>
+                    <a class='white' expr:href='data:blog.url' itemprop='URL' rel='bookmark'>
+                      <data:blog.pageName/>
+                    </a>
+                  </h1>
+                </b:if>
+              </b:includable>
+            </b:widget>
+          </b:section>
+        </div>
+      </header>
+    </b:if>
+    <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
+      <div class='container-fluid'>
+        <img alt='404 Linuxindonesia.com' class='img-responsive center-block' src='http://2.bp.blogspot.com/-nlREMVsX89Q/VWRydGRohiI/AAAAAAAAAtM/ZCBzGmeroe0/s1600/404.png'/>
+      </div>
+      <b:else/>
+      <div class='container' id='outer-wrapper'>
+        <b:if cond='data:blog.isMobile'>
+          &lt;main id=&#39;main-wrapper&#39; itemprop=&#39;mainContentOfPage&#39; role=&#39;main&#39;&gt;
+          <b:else/>
+          &lt;main class=&#39;col-sm-12 col-md-8&#39; id=&#39;main-wrapper&#39; itemprop=&#39;mainContentOfPage&#39; role=&#39;main&#39;&gt;
+        </b:if>
+        <b:section class='main' id='main' showaddelement='no'>
+          <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog'>
+            <b:includable id='main' var='top'>
+              <b:if cond='!data:mobile'>
+                <div class='blog-posts hfeed' itemscope='itemscope' itemtype='http://schema.org/Blog'>
+                  <b:include data='top' name='status-message'/>
+                  <data:defaultAdStart/>
+                  <b:loop values='data:posts' var='post'>
+                    <b:include data='post' name='post'/>
+                    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                      <div class='clearfix'/>
+                      <b:if cond='data:post.allowIframeComments'>
+                        <b:include data='post' name='threaded_comments'/>
+                        <b:else/>
+                        <b:include data='post' name='comments'/>
+                      </b:if>
+                    </b:if>
+                    <b:if cond='data:post.includeAd'>
+                      <b:if cond='data:post.isFirstPost'>
+                        <data:defaultAdEnd/>
+                        <b:else/>
+                        <data:adEnd/>
+                      </b:if>
+                      <div class='inline-ad'>
+                        <data:adCode/>
+                      </div>
+                      <data:adStart/>
+                    </b:if>
+                  </b:loop>
+                </div>
+                <data:adEnd/>
+                <div class='clearfix'/>
+                <b:include name='nextprev'/>
+                <b:include name='feedLinks'/>
+                <b:if cond='data:top.showStars'>
+                  <script src='//www.google.com/jsapi' type='text/javascript'/>
+                  <script type='text/javascript'>
+                    google.load(&quot;annotations&quot;, &quot;1&quot;, {&quot;locale&quot;: &quot;<data:top.languageCode/>&quot;});
+                    function initialize() {
+                      google.annotations.setApplicationId(<data:top.blogspotReviews/>);
+                      google.annotations.createAll();
+                      google.annotations.fetch();
+                    }
+                    google.setOnLoadCallback(initialize);
+                  </script>
+                </b:if>
+                <b:else/>
+                <b:include name='mobile-main'/>
+              </b:if>
+              <b:if cond='data:top.showDummy'>
+                <data:top.dummyBootstrap/>
+              </b:if>
+            </b:includable>
+            <b:includable id='backlinkDeleteIcon' var='backlink'>
+            </b:includable>
+            <b:includable id='backlinks' var='post'>
+            </b:includable>
+            <b:includable id='breadcrumb' var='posts'>
+              <ol class='breadcrumb'>
+                <li class='ps'>
+                  <span class='glyphicon glyphicon-tags'/>
+                  Label :
+                </li>
+                <b:loop values='data:post.labels' var='label'>
+                  <li>
+                    <a expr:href='data:label.url' expr:title='&quot;Label / Kategori &quot; + data:label.name' rel='tag'>
+                      <data:label.name/>
+                    </a>
+                  </li>
+                </b:loop>
+              </ol>
+            </b:includable>
+            <b:includable id='comment-form' var='post'>
+            </b:includable>
+            <b:includable id='commentDeleteIcon' var='comment'>
+            </b:includable>
+            <b:includable id='comment_count_picker' var='post'>
+            </b:includable>
+            <b:includable id='comment_picker' var='post'>
+            </b:includable>
+            <b:includable id='comments' var='post'>
+              <section class='hidden-print panel panel-danger' id='komentar'>
+                <div class='panel-heading'>
+                  <h4 class='panel-title'>
+                    <span class='glyphicon glyphicon-comment pull-left'/>
+                    Komentar Dinonaktifkan
+                  </h4>
+                </div>
+                <div class='panel-body'>
+                  Mohon maaf, komentar untuk artikel ini dinonaktifkan.
+                </div>
+              </section>
+            </b:includable>
+            <b:includable id='feedLinks'>
+            </b:includable>
+            <b:includable id='feedLinksBody' var='links'>
+            </b:includable>
+            <b:includable id='iframe_comments' var='post'>
+            </b:includable>
+            <b:includable id='mobile-index-post' var='post'>
+              <article expr:class='data:blog.pageType + &quot;-mobile list-group-item hentry&quot;' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting' role='article'>
+                <b:if cond='data:post.title'>
+                  <h2 class='list-group-item-heading entry-title' itemprop='headline'>
+                    <a expr:href='data:post.url' itemprop='URL'>
+                      <data:post.title/>
+                    </a>
+                  </h2>
+                </b:if>
+                <p class='entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description'>
+                  <data:post.snippet/>
+                </p>
+                <div class='hidden'>
+                  <b:if cond='data:post.labels'>
+                    <b:loop values='data:post.labels' var='label'>
+                      <a expr:href='data:label.url' expr:title='data:label.name' rel='tag'>
+                        <data:label.name/>
+                      </a>
+                    </b:loop>
+                  </b:if>
+                  <b:if cond='data:top.showAuthor'>
+                    <small class='vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <b:if cond='data:post.authorProfileUrl'>
+                        <span class='fn' itemprop='name'>
+                          <a expr:href='data:post.authorProfileUrl' itemprop='URL' rel='publisher' title='author profile'>
+                            <data:post.author/>
+                          </a>
+                        </span>
+                        <b:else/>
+                        <span class='fn'>
+                          <data:post.author/>
+                        </span>
+                      </b:if>
+                    </small>
+                  </b:if>
+                  <b:if cond='data:top.showTimestamp'>
+                    <time class='published updated' expr:datetime='data:post.timestampISO8601' itemprop='datePublished'>
+                      <data:post.timestamp/>
+                    </time>
+                  </b:if>
+                </div>
+			  </article>
+            </b:includable>
+            <b:includable id='mobile-main' var='top'>
+              <div class='blog-posts hfeed' itemscope='itemscope' itemtype='http://schema.org/Blog'>
+                <b:include data='top' name='status-message'/>
+                <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                  <div class='list-group hfeed'>
+                    <b:loop values='data:posts' var='post'>
+                      <b:include data='post' name='mobile-index-post'/>
+                    </b:loop>
+                  </div>
+                  <b:else/>
+                  <b:loop values='data:posts' var='post'>
+                    <b:include data='post' name='mobile-post'/>
+                  </b:loop>
+                </b:if>
+              </div>
+              <b:include name='mobile-nextprev'/>
+            </b:includable>
+            <b:includable id='mobile-nextprev'>
+              <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                <nav class='hidden-print'>
+                  <ul class='pager'>
+                    <b:if cond='data:newerPageUrl'>
+                      <li class='previous'>
+                        <a class='btn-lg' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle' rel='prev'>
+                          <span class='glyphicon glyphicon-chevron-left'/>
+                        </a>
+                      </li>
+                    </b:if>
+                    <b:if cond='data:olderPageUrl'>
+                      <li class='next'>
+                        <a class='btn-lg' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle' rel='next'>
+                          <span class='glyphicon glyphicon-chevron-right'/>
+                        </a>
+                      </li>
+                    </b:if>
+                  </ul>
+                </nav>
+                <b:elseif cond='data:blog.pageType == &quot;item&quot;'/>
+                <div class='hidden-print'>
+                  <b:if cond='data:newerPageUrl'>
+                    <a class='white btn-warning' expr:href='data:newerPageUrl' expr:title='data:newerPageTitle' id='bpnl' rel='next'>
+                      <span class='glyphicon glyphicon-chevron-left white'/>
+                    </a>
+                  </b:if>
+                  <b:if cond='data:olderPageUrl'>
+                    <a class='white btn-warning' expr:href='data:olderPageUrl' expr:title='data:olderPageTitle' id='bpol' rel='prev'>
+                      <span class='glyphicon glyphicon-chevron-right white'/>
+                    </a>
+                  </b:if>
+                </div>
+              </b:if>
+            </b:includable>
+            <b:includable id='mobile-post' var='post'>
+              <article expr:class='data:blog.pageType + &quot; hentry&quot;' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting' role='article'>
+                <h1 class='entry-title' itemprop='headline'>
+                  <a expr:href='data:post.url' itemprop='URL'>
+                    <data:post.title/>
+                  </a>
+                </h1>
+                <div class='h4' id='post-header'>
+                  <b:if cond='data:top.showTimestamp'>
+                    <span aria-hidden='true' class='glyphicon glyphicon-calendar'/>
+                    <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='Terakhir diubah'>
+                      <time class='published updated' expr:datetime='data:post.timestampISO8601' itemprop='datePublished'>
+                        <data:post.timestamp/>
+                      </time>
+                    </a>
+                  </b:if>
+                  |
+                  <b:if cond='data:top.showAuthor'>
+                    <span class='vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                      <b:if cond='data:post.authorProfileUrl'>
+                        <span class='fn' itemprop='name'>
+                          <span aria-hidden='true' class='glyphicon glyphicon-user'/>
+                          <a expr:href='data:post.authorProfileUrl' itemprop='URL' rel='publisher'>
+                            <data:post.author/>
+                          </a>
+                        </span>
+                        <b:else/>
+                        <span class='fn'>
+                          <data:post.author/>
+                        </span>
+                      </b:if>
+                    </span>
+                  </b:if>
+                </div>
+                <div class='post-body entry-content text-justify' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+                  <data:post.body/>
+                </div>
+                <b:include data='post' name='shareButtons'/>
+              </article>
+            </b:includable>
+            <b:includable id='nextprev'>
+              <b:if cond='data:mobile'>
+                <b:include name='mobile-nextprev'/>
+                <b:else/>
+                <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                  <nav class='hidden-print'>
+                    <ul class='pager'>
+                      <b:if cond='data:newerPageUrl'>
+                        <li class='previous'>
+                          <a class='btn-lg' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-newer-link&quot;' expr:title='data:newerPageTitle' rel='prev'>
+                            <span class='glyphicon glyphicon-chevron-left'/>
+                            Sebelum
+                          </a>
+                        </li>
+                      </b:if>
+                      <b:if cond='data:olderPageUrl'>
+                        <li class='next'>
+                          <a class='btn-lg' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &quot;_blog-pager-older-link&quot;' expr:title='data:olderPageTitle' rel='next'>
+                            Next
+                            <span class='glyphicon glyphicon-chevron-right'/>
+                          </a>
+                        </li>
+                      </b:if>
+                    </ul>
+                  </nav>
+                </b:if>
+              </b:if>
+            </b:includable>
+            <b:includable id='post' var='post'>
+              <b:if cond='data:blog.pageType == &quot;index&quot;'>
+                <article expr:class='data:blog.pageType + &quot; media hentry&quot;' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting' role='article'>
+                  <b:if cond='data:post.thumbnailUrl'>
+                    <div class='media-left thumb-wrap'>
+                      <a expr:href='data:post.url' expr:title='data:post.title'>
+                        <img class='media-object ptr' expr:data-src='data:post.thumbnailUrl' expr:title='data:post.title' height='180' itemprop='image' width='250'/>
+                      </a>
+                      <div class='label-wrap text-center container-fluid'>
+                        <b:if cond='data:post.labels'>
+                          <ul class='list-inline'>
+                            <b:loop values='data:post.labels' var='label'>
+                              <li class='img-rounded'>
+                                <a class='white' expr:href='data:label.url' expr:title='data:label.name' rel='tag'>
+                                  <data:label.name/>
+                                </a>
+                              </li>
+                            </b:loop>
+                          </ul>
+                        </b:if>
+                      </div>
+                    </div>
+                  </b:if>
+                  <div class='media-body'>
+                    <b:if cond='data:top.showAuthor'>
+                      <small class='vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                        <b:if cond='data:post.authorProfileUrl'>
+                          <span class='glyphicon glyphicon-user'/>
+                          <span class='fn' itemprop='name'>
+                            <a class='black' expr:href='data:post.authorProfileUrl' itemprop='URL' rel='publisher' title='author profile'>
+                              <data:post.author/>
+                            </a>
+                          </span>
+                          <b:else/>
+                          <span class='fn' itemprop='name'>
+                            <data:post.author/>
+                          </span>
+                        </b:if>
+                      </small>
+                      |  
+                    </b:if>
+                    <b:if cond='data:top.showTimestamp'>
+                      <small>
+                        <span class='glyphicon glyphicon-calendar'/>
+                        <time class='published updated' expr:datetime='data:post.timestampISO8601' itemprop='datePublished'>
+                          <data:post.timestamp/>
+                        </time>
+                      </small>
+                    </b:if>
+                    <b:if cond='data:post.title'>
+                      <h2 class='media-heading entry-title' itemprop='headline' rel='bookmark'>
+                        <a class='black' expr:href='data:post.url' itemprop='URL'>
+                          <data:post.title/>
+                        </a>
+                      </h2>
+                    </b:if>
+                    <p class='entry-content text-justify' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='description'>
+                      <data:post.snippet/>
+                    </p>
+                  </div>
+                </article>
+                <b:else/>
+                <article expr:class='data:blog.pageType + &quot; hentry&quot;' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting' role='article'>
+                <h1 class='entry-title' itemprop='headline'>
+                  <a expr:href='data:post.url' itemprop='URL'>
+                    <data:post.title/>
+                  </a>
+                </h1>
+                  <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+                    <div class='h4' id='post-header'>
+                      <b:if cond='data:top.showTimestamp'>
+                        <span class='glyphicon glyphicon-calendar'/>
+                        <a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='Terakhir diubah'>
+                          <time class='published updated' expr:datetime='data:post.timestampISO8601' itemprop='datePublished'>
+                            <data:post.timestamp/>
+                          </time>
+                        </a>
+                      </b:if>
+                      |
+                      <b:if cond='data:top.showAuthor'>
+                        <span class='vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+                          <b:if cond='data:post.authorProfileUrl'>
+                            <span class='fn' itemprop='name'>
+                              <span class='glyphicon glyphicon-user'/>
+                              <a expr:href='data:post.authorProfileUrl' itemprop='URL' rel='publisher' title='author profile'>
+                                <data:post.author/>
+                              </a>
+                            </span>
+                            <b:else/>
+                            <span class='fn' itemprop='name'>
+                              <data:post.author/>
+                            </span>
+                          </b:if>
+                        </span>
+                      </b:if>
+                      <b:include data='post' name='postQuickEdit'/>
+                    </div>
+                  </b:if>
+                  <div class='entry-content text-justify' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
+                    <data:post.body/>
+                  </div>
+                  <b:if cond='data:blog.pageType == &quot;item&quot;'>
+                    <b:include name='breadcrumb'/>
+                    <b:include data='post' name='shareButtons'/>
+                  </b:if>
+                </article>
+              </b:if>
+            </b:includable>
+            <b:includable id='postQuickEdit' var='post'>
+              <b:if cond='data:post.editUrl'>
+                <a expr:class='&quot;hidden-print black &quot; + data:post.adminClass' expr:href='&quot;http://www.blogger.com//post-edit.g?blogID=&quot; + data:blog.blogId + &quot;&amp;amp;postID=&quot;+ data:post.id + &quot;&amp;amp;from=pencil&quot;' title='Edit This Post'>
+                  <span class='glyphicon glyphicon-edit pull-right'/>
+                </a>
+              </b:if>
+            </b:includable>
+            <b:includable id='shareButtons' var='post'>
+              <b:if cond='data:mobile'>
+                <a class='share fb center-block text-center white' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='&quot;Sebarkan ke Facebook Artikel Berjudul &quot; + data:post.title'>
+                  Facebook
+                </a>
+                <a class='share tw center-block text-center white' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='&quot;Sebarkan ke Twitter Artikel Berjudul &quot; + data:post.title'>
+                  Tweet
+                </a>
+                <a class='share gp center-block text-center white' expr:href='&quot;https://plus.google.com/share?url=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' expr:title='&quot;Sebarkan ke Google Plus Artikel Berjudul &quot; + data:post.title'>
+                  Plusone
+                </a>
+                <b:else/>
+                <a class='share fb col-sm-12 col-md-3 text-center white' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' title='Sebarkan Artikel ini ke Facebook '>
+                  Facebook 
+                  <span aria-hidden='true' class='glyphicon glyphicon-thumbs-up'/>
+                </a>
+                <a class='share tw col-sm-12 col-md-3 text-center white' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' title='Sebarkan Artikel ini ke Twitter '>
+                  Tweet 
+                  <span aria-hidden='true' class='glyphicon glyphicon-retweet'/>
+                </a>
+                <a class='share gp col-sm-12 col-md-3 text-center white' expr:href='&quot;https://plus.google.com/share?url=&quot; + data:post.url' expr:onclick='&quot;window.open(this.href, \&quot;_blank\&quot;, \&quot;height=430,width=640\&quot;); return false;&quot;' title='Sebarkan Artikel ini ke GooglePlus '>
+                  Google
+                  <span aria-hidden='true' class='glyphicon glyphicon-plus'/>
+                </a>
+                <a class='share pr col-sm-12 col-md-3 text-center white' href='javascript:print(document)' title='Cetak Artikel ini '>
+                  <span aria-hidden='true' class='glyphicon glyphicon-print'/>
+                  Cetak  
+                </a>
+              </b:if>
+            </b:includable>
+            <b:includable id='status-message'>
+              <b:if cond='data:blog.searchQuery'>
+                <b:if cond='data:numPosts != 0'>
+                  <section class='alert alert-info text-center'>
+                    Menampilkan semua entri dengan kata kunci 
+                    <h4>
+                      <strong>
+                        &quot;
+                        <data:blog.searchQuery/>
+                        &quot;
+                      </strong>
+                    </h4>
+                  </section>
+                  <b:else/>
+                  <section class='alert alert-warning text-center'>
+                    Pencarian entri dengan kata kunci 
+                    <h4>
+                      <strong>
+                        &quot;
+                        <data:blog.searchQuery/>
+                        &quot; 
+                      </strong>
+                    </h4>
+                    tidak ditemukan.
+                  </section>
+                </b:if>
+              </b:if>
+              <b:if cond='data:blog.searchLabel'>
+                <section class='alert alert-info text-center'>
+                  Menampilkan semua entri dengan kategori 
+                  <h4>
+                    <strong>
+                      &quot;
+                      <data:blog.searchLabel/>
+                      &quot;
+                    </strong>
+                  </h4>
+                </section>
+              </b:if>
+            </b:includable>
+            <b:includable id='threaded-comment-form' var='post'>
+            </b:includable>
+            <b:includable id='threaded_comment_js' var='post'>
+            </b:includable>
+            <b:includable id='threaded_comments' var='post'>
+              <section class='hidden-print panel panel-primary' id='komentar'>
+                <div class='panel-heading'>
+                  <h4 class='panel-title'>
+                    <span class='glyphicon glyphicon-comment pull-left'/>
+                    Komentar
+                  </h4>
+                </div>
+                <div class='panel-body' id='disqus_thread'/>
+                <script>
+                  var disqus_shortname = &#39;linuxindonesia&#39;;
+                  var disqus_identifier = &#39;<data:blog.url/>&#39;;
+                  var disqus_title = &#39;<data:blog.pageName/>&#39;;
+                  var disqus_url = &#39;<data:blog.canonicalUrl/>&#39;;
+                </script>
+              </section>
+            </b:includable>
+          </b:widget>
+        </b:section>
+        &lt;/main&gt;
+        <aside class='col-sm-12 col-md-4' id='sidebar-wrapper'>
+          <b:section class='sidebar' id='sidebar' preferred='yes'>
+            <b:widget id='HTML1' locked='false' title='Belajar Linux Eksklusif' type='HTML'>
+              <b:includable id='main'>
+                <div class='panel panel-primary'>
+                  <b:if cond='data:title != &quot;&quot;'>
+                    <div class='panel-heading'>
+                      <h4>
+                        <data:title/>
+                      </h4>
+                    </div>
+                  </b:if>
+                  <div class='panel-body'>
+                    <data:content/>
+                  </div>
+                </div>
+              </b:includable>
+            </b:widget>
+            <b:widget id='PopularPosts1' locked='false' title='Populer Minggu Ini' type='PopularPosts'>
+              <b:includable id='main'>
+                <b:if cond='data:title'>
+                  <h3>
+                    <span aria-hidden='true' class='glyphicon glyphicon-star'/>
+                    <data:title/>
+                  </h3>
+                </b:if>
+                <ul class='media-list list-group'>
+                  <b:loop values='data:posts' var='post'>
+                    <li class='list-group-item'>
+                      <b:if cond='data:post.thumbnail'>
+                        <div class='media-left'>
+                          <a expr:href='data:post.href' title='data:post.title'>
+                            <img class='media-object img-circle' expr:alt='data:post.title' expr:src='data:post.thumbnail'/>
+                          </a>
+                        </div>
+                      </b:if>
+                      <div class='media-body'>
+                        <h4 class='media-heading'>
+                          <a expr:href='data:post.href'>
+                            <data:post.title/>
+                          </a>
+                        </h4>
+                      </div>
+                    </li>
+                  </b:loop>
+                </ul>
+              </b:includable>
+            </b:widget>
+          </b:section>
+        </aside>
+        <div class='clearfix'/>
+      </div>
+    </b:if>
+    <footer id='footer-wrapper' itemscope='itemscope' itemtype='http://schema.org/WPFooter' role='contentinfo'>
+      <section class='text-center' id='credit'>
+        <h5 class='white'>
+          Copyright &#169; 
+          <span itemprop='copyrightYear'>
+            2015
+          </span>
+          , Linuxindonesia.com
+        </h5>
+      </section>
+    </footer>
+    <b:include data='blog' name='google-analytics'/>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js'/>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js'/>
+    <b:if cond='data:blog.pageType == &quot;index&quot;'>
+      <b:if cond='data:blog.isMobile == &quot;false&quot;'>
+        <script type='text/javascript'>
+          <b:if cond='!data:blog.isMobile'>
+            $(&#39;#nav-1&#39;).affix({offset: {top: $(&#39;.page-header&#39;).height()}});
+        </b:if>
+              function resizeThumb(t,i,c){$(t).each(function(){$(this).attr({src:$(this).attr(&quot;data-src&quot;).replace(&quot;/s&quot;+i+&quot;-c/&quot;,&quot;/w&quot;+c+&quot;/&quot;)})})}$(function(){resizeThumb(&quot;.ptr&quot;,&quot;72&quot;,&quot;250&quot;)});var thumbsrc = $(&quot;.ptr&quot;).attr(&quot;data-src&quot;);$(&quot;.ptr&quot;).attr(&quot;src&quot;,thumbsrc)
+        </script>
+      </b:if>
+    </b:if>
+    <b:if cond='data:blog.pageType == &quot;item&quot;'>
+      <script type='text/javascript'>
+        $(&quot;.entry-content img&quot;).attr(&quot;class&quot;,&quot;img-responsive center-block&quot;);
+        $(window).bind(&quot;load&quot;,function() {(function(){var a=document.createElement(&quot;script&quot;);a.type=&quot;text/javascript&quot;;a.async=true;a.src=&quot;//&quot;+disqus_shortname+&quot;.disqus.com/embed.js&quot;;(document.getElementsByTagName(&quot;head&quot;)[0]||document.getElementsByTagName(&quot;body&quot;)[0]).appendChild(a);})();});
+                                                                <b:if cond='!data:blog.isMobile'>
+		$(&#39;#nav-1&#39;).affix({offset: {top: $(&#39;.page-header&#39;).height()}});
+//<![CDATA[
+        $('.entry-content img').tooltip();
+         (document).ready(function(){var e=$("a.blog-pager-older-link").attr("href");$("a.blog-pager-older-link").load(e+" .entry-title:first",function(){var e=$("a.blog-pager-older-link").text();$("a.blog-pager-older-link").text(e)});var r=$("a.blog-pager-newer-link").attr("href");$("a.blog-pager-newer-link").load(r+" .entry-title:first",function(){var e=$("a.blog-pager-newer-link:first").text();$("a.blog-pager-newer-link").text(e)})});
+//]]>
+      </b:if>
+      </script>
+    </b:if>
+    &lt;/body&gt;&lt;!--
+  </body>
+  --&gt;
+</HTML>
